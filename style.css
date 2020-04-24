@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway:400,700');
+
+body {
+  background-image: url(https://i.imgur.com/iLzni9G.jpg); 
+  background-position: right top;
+  background-size:  50%;
+  z-index: -1;
+  text-align: center;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+header {
+  color: white;
+  height: 400px;
+  background-image: url(https://i.imgur.com/YnYYzIl.jpg);
+  background-position: center top
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: gold;
+  margin-top: 0;
+  font-size: 40px;
+  font-family: Oswald, sans-serif;
+}
+
+h2 {
+  color: beige;
+  font-weight: normal;
+}
+
+main {
+  background-clip: url(https://i.imgur.com/SMabKyK.jpg?1);
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid gray;
+  font-size: 12px;
+}
+
+button {
+  padding: 8px 24px;
+  border: 1px solid gray;
+  font-size: 12px;
+  background-color: forestgreen;
+  color: #fff;
+}
+
+footer {
+  font-size: 12px;
+  color: gray;
+}
+
+#album {
+  border-bottom: 3px double;
+}
+.first {
+  background-image: url(https://i.imgur.com/lEDoHpE.jpg?1);
+  background-position: left top;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  height: 300px;
+  width: 600px;
+}
+.second {
+  background-image: url(https://i.imgur.com/H3F2gMO.jpg?1);
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-position: 10 -75;
+  height:  300px;
+  width:  600px;
+
+}
+.third{
+  height: 400px;
+  width:  600px;
+  background-image: url(https://i.imgur.com/sZ7FXQS.jpg);
+  }
+.fourth {
+  background-image:  url(https://i.imgur.com/OdqsDB4.jpg?1);
+  background-position: right top;
+  height: 400px;
+  width:  600px;
+}
+.dark {
+  margin: 0;
+  color: rgb(51,51,100);
+}
+
+li {
+  text-align: left;
+  list-style: none;
+  background: white;
+  padding: 8px;
+  border-top: 1px solid rgb(238,238,238);
+}
+
+
+li:first-child {
+  border-top: none;
+}
+li:nth-child(even) {
+  background-color: rgb(246,246,246);
+}
+li:hover {
+  background: gold;
